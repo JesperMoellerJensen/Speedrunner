@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Speedrunner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<TextBlock Text="{Binding Timer}"/>
+	</Grid>
 </Window>
